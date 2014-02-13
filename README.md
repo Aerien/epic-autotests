@@ -1,2 +1,4 @@
-Autotests project for epicsell.ru
+epicsell.ru
+
+Webdriver based UI and functional testing
 ==============
