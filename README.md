@@ -1,2 +1,2 @@
-epic-autotests
+Autotests project for epicsell.ru
 ==============
