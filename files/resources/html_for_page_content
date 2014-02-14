@@ -1,0 +1,30 @@
+<ul class="toolbox__nav nav" id="">
+    <li class="system first -point">
+        <a href="/admin/core/systemDefault">Система</a>
+    </li>
+    <li class="orders -point">
+        <a href="/admin/orders">Заказы</a>
+    </li>
+    <li class="catalog -point">
+        <a href="/admin/store/products">Каталог</a>
+    </li>
+    <li class="pages -point">
+        <a href="/admin/pages">Страницы</a>
+    </li>
+    <li class="csv -point dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Автоматизация
+            <span class="caret"></span>
+        </a>
+        <ul class="-sub dropdown-menu" id="yw2">
+            <li class="import">
+                <a data-toggle="modal" tabindex="-1" href="/admin/csv/import">Импорт</a>
+            </li>
+            <li class="export">
+                <a data-toggle="modal" data-backdrop="static" tabindex="-1" href="/admin/csv/export">Экспорт</a>
+            </li>
+        </ul>
+    </li>
+    <li class="logout last -point">
+        <a href="/admin/auth/logout">Выход</a>
+    </li>
+</ul>        
